@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/muela1.png">
+    <title>Dental Paz</title>
+</head>
+<body>
+    
+    <header>
+        <div>
+            <nav>
+                <div class="logo-container">
+                    <a href="index.html" class="brand-logo">
+                    <img src="img/muela1.png" alt="Logo Dental" class="logo-img">
+                    </a>
+                    <a href="index.html" class="logo-title">
+                        <h1 class="logo">
+                            Dental Paz
+                        </h1>
+                    </a>   
+                </div>
+
+                <ul class="nav-btn">
+                    <li>
+                        <button class="btn-date" id="btn-date">
+                            Reservar cita
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div id="modal-cita" class="modal">
+            <div class="modal-content">
+                <h2>Agendar cita</h2>
+                <input type="date" id="fecha">
+                <div id="horarios">
+                </div>
+                <button class="btn-date" id="confirmar">
+                    Confirmar cita
+                </button>
+                <h3>Resumen de la cita</h3>
+                <p id="fecha-resumen">
+                    Fecha: No seleccionada
+                </p>
+                <p id="hora-resumen">
+                    Hora: No seleccionada
+                </p>
+            </div>
+    </div>
+
+    <main>
+
+        <section class="hero">
+                <div class="hero-content">
+                    <h1>
+                        Tu sonrisa en las mejores manos
+                    </h1>
+                    <p>
+                        Atención dental profesional.
+                    </p>
+                    <button class="btn-date" id="btn-date">
+                        Reservar cita
+                    </button>
+                </div>
+                <img class="hero-img" src="https://www.stellamaris.com.pe/uploads/shares/BLOG/stella-maris-blog-dia-de-la-odontologia-peruana.png" alt="Dentista">
+        </section>
+
+        <section class="services">
+            <div class="services-content">
+                <h1>
+                    Servicios
+                </h1>
+                <div class="grid-container">
+                    <div class="card">
+                        <h2>Implantes y Protesis</h2>
+                        <img class="card-img" src="https://images.squarespace-cdn.com/content/v1/5b91733c9772ae9bb38e47c0/1567476614245-87WAND2GRDI3HTZYRJ8T/5cdd9b6bf79788344059dbae_dentalimplantbest.jpg" alt="">
+                        <p>Implantes dentales</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Exodoncia</h2>
+                        <img src="https://ponceycarpintero.com/wp-content/uploads/exodoncia.webp" alt="" class="card-img">
+                        <p>Extracciones complejas (como las muelas del juicio impactadas).</p>
+                    </div>
+                    <div class="card">
+                        <h2>Estetica Dental</h2>
+                        <img src="https://laclinicadental.mx/wp-content/uploads/2019/03/blanqueamiento-dental.jpg" alt="" class="card-img">
+                        <p>Blanqueamiento dental.</p>
+                    </div>
+                    <div class="card">
+                        <h2>Ortodoncia</h2>
+                        <img src="https://www.teeth22.com/wp-content/uploads/2018/11/cuidar-los-dientes-durante-tratamiento-ortodoncia-1024x511.jpg" alt="" class="card-img">
+                        <p>Brackets convencionales</p>
+                    </div>
+                    <div class="card">
+                        <h2>Obturaciones</h2>
+                        <img src="https://quatredental.com/wp-content/uploads/2022/02/obturacion-dental.jpg" alt="" class="card-img">
+                        <p>Tratamiento de caries</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="us">
+            <div class="us-img">
+                <img src="https://scontent.fmam1-1.fna.fbcdn.net/v/t39.30808-6/292057317_2234849613346740_278809466649669505_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=ydsxup38jjMQ7kNvwEygS8H&_nc_oc=Adr8kkiYVQHsYd2zDoeuE2y0__bnr2OviPAcJ3OjHR--9-_CxZyHULX5_DEGbur2dvI&_nc_zt=23&_nc_ht=scontent.fmam1-1.fna&_nc_gid=XlFlJke8QyjH27iew2kDIQ&_nc_ss=7b2a8&oh=00_Af6-WoFXqLhKAePQ47wt8MPkPBMG0vsfKYepXpDLKHj9Pg&oe=6A1D40C7" alt="clinica dental">
+                <p class="us-doc"><b>Dra. Carmina Paz</b></p>
+                <p class="us-title"><em>Cirujano Dentista</em></p>
+            </div>
+            <div class="us-text">
+                <h2>
+                    Sobre Nosotros
+                </h2>
+                <p>
+                    Somos una clínica dental enfocada
+                    en brindar atención profesional
+                    y moderna para toda la familia.
+                </p>
+                <ul>
+                    <li>
+                        Atención personalizada.
+                    </li>
+                    <li>
+                        Tecnología moderna.
+                    </li>
+                    <li>
+                        Especialista certificado.
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="contact-content">
+                <h1>
+                    Contáctanos
+                </h1>
+                <ul>
+                    <li>
+                        <b>Teléfono:</b> 868-133-4457
+                    </li>
+                    <li>
+                        <b>Dirección:</b> Roberto Guerra, esquina callejon 5, Colonia Trevino Zapata
+                    </li>
+                </ul>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224.3965114523916!2d-97.48307826242001!3d25.85814713632559!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x866f94d7b8143ebb%3A0x5668acd92b37711d!2sDental%20Paz!5e0!3m2!1ses!2smx!4v1779926909851!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+
+    <footer class="page-footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+               <div class="logo-container">
+                    <a href="index.html" class="brand-logo">
+                    <img src="img/muela1.png" alt="Logo Dental" class="logo-img">
+                    </a>
+                    <a href="index.html" class="logo-title">
+                        <h1 class="footer-logo">
+                            Dental Paz
+                        </h1>
+                    </a> 
+                </div>
+                <p>
+                    Atención dental profesional
+                    y moderna para toda la familia.
+                </p>    
+            </div>
+
+            <div class="footer-links">
+                <h3>
+                    Servicios
+                </h3>
+                <ul>
+                    <li>
+                        <a href="#">
+                            Limpieza
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Ortodoncia
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Implantes
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-contacto">
+                <h3>
+                    Contacto
+                </h3>
+                <p>
+                    Heroica Matamoros
+                </p>
+                <p>
+                    +52 868-133-4457
+                </p>
+                <p>
+                    contacto@dentalcare.com
+                </p>
+                <div class="socials">
+                    <a href="https://www.facebook.com/dental.paz.2025" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-horarios">
+                <h3>
+                    Horarios
+                </h3>
+                <p>
+                    Lunes - Viernes
+                </p>
+                <p>
+                    9:00 AM - 6:00 PM
+                </p>
+                <p>
+                    Sabado
+                </p>
+                <p>
+                    9:00 AM - 3:00 PM
+                </p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>
+                © 2026 Dental Paz.
+                Todos los derechos reservados.
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
