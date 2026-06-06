@@ -22,23 +22,6 @@ nav {
     list-style: none;
 }
 
-.modal {
-    display: none;
-    position: fixed;
-    inset: 0;
-    background-color: rgba(0,0,0,0.5);
-    justify-content: center;
-    align-items: center;
-}
-
-.modal-content {
-    background-color: white;
-    padding: 30px;
-    border-radius: 15px;
-    width: 500px;
-    max-width: 90%;
-}
-
 .logo-container {
     display: flex;
     align-items: center;
@@ -67,6 +50,36 @@ nav {
 
 .logo-img:hover {
     transform: scale(1.1);
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0,0,0,0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    width: 500px;
+    max-width: 90%;
+    position: relative;
+}
+
+#cerrar-modal {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border: none;
+    background: none;
+    font-size: 23px;
+    cursor: pointer;
 }
 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
